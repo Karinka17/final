@@ -1,20 +1,166 @@
 @import url(./reset.css);
 
+* {
+    font-family: sans-serif;
+    /* outline: 1px dotted #333; */
+}
+
 /* NAVIGATION */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2c3e50;
+}
+
+nav ul li {
+    font-size: 20pt;
+    padding: 0.5em 0;
+    width: 150px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.4s ease;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
 
 
+nav ul li:hover {
+    background: rgb(138, 124, 124);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(138, 124, 124;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
 
 /* HEADER */
+#main-header {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 
+    color: #fff;
+    background: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#main-header h1 {
+    font-size: 32pt;
+}
+
+#main-header h2 {
+    font-size: 23pt;
+}
 
 /* MAIN CONTENT */
-
+#main-content {
+    padding: 3em;
+    width: 100%;
+    display: flex;
+    gap: 1em;
+}
 
 /* MAIN */
+main {
+    width: 70%;
+}
 
+main figure {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em 2em 0;
+}
+
+main figure img {
+    width: 200px;
+    height: 200px;
+}
+
+main figure cite a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+main figure cite a:hover {
+    color: lightskyblue;
+}
+
+main p {
+    line-height: 1.5;
+}
 
 /* ASIDE */
+aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
 
+aside h2 {
+    width: 100%;
+    padding: 1em;
+    font-size: 19pt;
+    background: #ecf0f1;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+aside ul li {
+    padding: 1em;
+}
+
+aside ul li:nth-child(even) {
+    background: #ecf0f1;
+}
+
+aside ul li strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 /* FOOTER */
+footer {
+    padding: 2em;
+    width: 100%;
+    background: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    color: #fff;
+}
 
+footer ul li {
+    width: 50px;
+    height: 50px;
+}
