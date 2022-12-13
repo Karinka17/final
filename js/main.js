@@ -2,15 +2,15 @@ console.log("JavaScript Portion of the Test");
 
 // Step 1: Write a multi-line comment detailing your name and student number
 /**
- * Name: Jeelkumar Patel
- * Student Number: 200528741
+ * Name: Karina Karanadze
+ * Student Number: 200538035
  */
 
 // Step 2: Create a block scoped, immutable variable that stores an empty array
 const arr = [];
 
 // Step 3: Add the 3 people's names to the array
-arr.push("Shaun", "Jeel", "Diablo");
+arr.push("Karina", "Karanadze", "Smokey");
 // console.log(arr);
 
 // Step 4: Remove the second array item from the array
